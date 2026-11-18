@@ -1,0 +1,107 @@
+[
+  {
+    "id": "arizole",
+    "original": "20261114_232123.jpg",
+    "originalBytes": 3830655,
+    "thumb": {
+      "bytes": 43692,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 181180,
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "risperidone",
+    "original": "20261114_232148.jpg",
+    "originalBytes": 2872620,
+    "thumb": {
+      "bytes": 14332,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 60964,
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "cardolol",
+    "original": "20261114_232217.jpg",
+    "originalBytes": 3665013,
+    "thumb": {
+      "bytes": 37198,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 168692,
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "rafax",
+    "original": "20261114_232259.jpg",
+    "originalBytes": 4150768,
+    "thumb": {
+      "bytes": 63160,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 246106,
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "clonopam05",
+    "original": "20261114_232340.jpg",
+    "originalBytes": 3400812,
+    "thumb": {
+      "bytes": 21660,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 115594,
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "clonopam2",
+    "original": "20261114_232442.jpg",
+    "originalBytes": 3815952,
+    "thumb": {
+      "bytes": 36824,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 161674,
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "divalproex",
+    "original": "20261114_232512.jpg",
+    "originalBytes": 3022290,
+    "thumb": {
+      "bytes": 11540,
+      "width": 480,
+      "height": 640
+    },
+    "large": {
+      "bytes": 42874,
+      "width": 960,
+      "height": 1280
+    }
+  }
+]

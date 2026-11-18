@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="藥名、照片、用途與服用方式。">
+  <meta name="theme-color" content="#274e45">
+  <title>用藥表</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./medications.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <div><h1>用藥表</h1><p>每次 1 顆 <span>·</span> <time datetime="2026-11-14">2026.11.14</time></p></div>
+      <div class="actions"><button id="font-button" type="button" aria-pressed="false">放大文字</button><button id="print-button" type="button">列印</button></div>
+    </header>
+    <div class="tools">
+      <div class="filters" role="group" aria-label="服法分類">
+        <button type="button" class="filter selected" data-filter="all" aria-pressed="true">全部</button>
+        <button type="button" class="filter" data-filter="once" aria-pressed="false">一日一次</button>
+        <button type="button" class="filter" data-filter="three" aria-pressed="false">一日三次</button>
+        <button type="button" class="filter" data-filter="morning-evening" aria-pressed="false">早晚服用</button>
+        <button type="button" class="filter" data-filter="bedtime" aria-pressed="false">睡前服用</button>
+      </div>
+      <label class="search"><span class="sr-only">搜尋藥名、成分或用途</span><input id="search" type="search" placeholder="搜尋藥名" autocomplete="off"></label>
+    </div>
+    <p id="result-count" class="sr-only" role="status" aria-live="polite"></p>
+    <div id="medications"><div id="medication-grid" class="medication-groups"></div></div>
+    <div id="empty-state" hidden><p>找不到符合的藥物。</p><button id="clear-search" type="button">清除搜尋與篩選</button></div>
+    <noscript><p>請啟用 JavaScript 查看藥單。</p></noscript>
+  </main>
+  <dialog id="photo-viewer" aria-labelledby="photo-title">
+    <header class="photo-header"><h2 id="photo-title">藥物照片</h2><button id="close-photo" type="button" aria-label="關閉照片">✕</button></header>
+    <img id="photo-full" alt="" width="960" height="1280" decoding="async">
+  </dialog>
+</body>
+</html>
